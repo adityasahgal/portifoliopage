@@ -1,61 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adity Sahgal - Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Adity Sahgal</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Hi, my name is Aditya Sahgal and I'm a full-stack web developer based in India. I'm passionate about building modern and responsive web applications using the latest web technologies. I have experience with HTML, CSS, JavaScript, React, Node.js, and more.
-            In my free time, I enjoy playing basketball, reading books, and learning new technologies.</p>
-      </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <h3>Project 1</h3>
-            <p>Description of project 1.</p>
-          </li>
-          <li>
-            <h3>Project 2</h3>
-            <p>Description of project 2.</p>
-          </li>
-          <li>
-            <h3>Project 3</h3>
-            <p>Description of project 3.</p>
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-          <label for="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
-          <button type="submit">Send</button>
-        </form>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aditya Sahgal | Portfolio</title>
+	<link rel="stylesheet" href="portfolio.css">
+	<script src="portfolio.js"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Aditya Sahgal</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<section id="about">
+			<div class="container">
+				<h2>About Me</h2>
+				<p>Hi, my name is Aditya Sahgal and I'm a full-stack web developer based in India. I'm passionate about building modern and responsive web applications using the latest web technologies. I have experience with HTML, CSS, JavaScript, React, Node.js, and more.</p>
+				<p>In my free time, I enjoy playing basketball, reading books, and learning new technologies.</p>
+			</div>
+		</section>
+		<section id="projects">
+			<div class="container">
+				<h2>Projects</h2>
+				<div class="card">
+					<img src="project1.jpg.jpg" alt="Project 1">
+					<h3>Project 1</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nisi vitae nulla bibendum ultricies quis euismod nunc.</p>
+					<a href="#">View Project</a>
+				</div>
+				<div class="card">
+					<img src="project2.jpg.jpg" alt="Project 2">
+					<h3>Project 2</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nisi vitae nulla bibendum ultricies quis euismod nunc.</p>
+					<a href="#">View Project</a>
+				</div>
+				<div class="card">
+					<img src="project3.jpg.jpg" alt="Project 3">
+					<h3>Project 3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nisi vitae nulla bibendum ultricies quis euismod nunc.</p>
+					<a href="#">View Project</a>
+				</div>
+			</div>
+		</section>
+		<section id="skills">
+			<div class="container">
+				<h2>Skills</h2>
+				<ul>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>React</li>
+					<li>Node.js</li>
+					<li>MongoDB</li>
+				</ul>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="container">
+				<h2>Contact Me</h2>
+				<form action="#" method="post">
+          			<label for="name">Name</label>
+          			<input type="text" id="name" name="name" required />
+          			<label for="email">Email</label>
+         	 		<input type="email" id="email" name="email" required />
+          			<label for="message">Message</label>
+         	 		<textarea id="message" name="message" required></textarea>
+          			<button type="submit">Send</button>
+        	</form>
       </section>
     </main>
     <footer>
-      <p>&copy; 2023 Adity Sahgal</p>
+      <p>&copy; 2023 Aditya Sahgal</p>
     </footer>
-    <script src="portifolio.js"></script>
+    <script src="portfolio.js"></script>
   </body>
 </html>
